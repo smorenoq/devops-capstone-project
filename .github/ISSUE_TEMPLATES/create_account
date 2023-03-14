@@ -1,0 +1,13 @@
+**As a** customer account manager
+**I need** to be able to create an account for customers
+**So that** customers can have their own accounts in the e-commerce website
+      
+### Details and Assumptions
+    * Customers need accounts
+    * The customer's e-mail address will be their identifier
+    * A customer can have only one account per email address
+### Acceptance Criteria     
+    gherkin 
+    Given a create_account API endpoint
+    When this endpoint is called 
+    Then a new account will be created
